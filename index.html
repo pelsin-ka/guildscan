@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Гильдия искателей приключений и охотников на драконов">
+  <meta name="keywords" content="гильдия, приключения, квесты, драконы">
+  <title>GuildScan</title>
+  <meta property="og:title" content="GuildScan">
+  <meta property="og:description" content="Гильдия искателей приключений и охотников на драконов">
+  <meta property="og:image" content="images/Логотип.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="images/Логотип.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="header-top">
+      <div class="logo">
+        <div class="logo-badge">
+          <img src="images/Логотип.png" alt="Логотип GuilgScan">
+        </div>
+        <div class="brand-name">
+          <h1>GuildScan</h1>
+        </div>
+      </div>
+      <button class="btn-login" type="button">Войти</button>
+    </div>
+    <nav class="header-nav">
+      <a href="#quests">Приключения</a>
+      <a href="#lobbies">Лобби</a>
+      <a href="#mentors">Наставники</a>
+      <a href="#discussions">Обсуждения</a>
+      <a href="#about">О нас</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+
+    <!-- ================= PREVIEW ================= -->
+    <section class="hero" id="preview">
+      <div class="hero-copy">
+        <h2>Найди квест. Собери отряд.<br>Получи награду</h2>
+        <a href="#quests" class="btn-cta">Начать приключение!</a>
+      </div>
+      <div class="stat-card">
+        Активных охотников: <b>1247</b><br>
+        Выполнено квестов: <b>3891</b><br>
+        Честных нанимателей: <b>156</b>
+      </div>
+    </section>
+
+    <!-- ================= HOT QUESTS ================= -->
+    <section id="quests">
+      <h2 class="section-title"><span class="deco">★・★・★</span>Горячие квесты<span class="deco">★・★・★</span></h2>
+      <div class="quest-grid">
+        <article class="quest-card">
+          <div class="quest-art dragon" aria-hidden="true"></div>
+          <div class="quest-body">
+            <div>
+              <h3>Пламя Безымянного Пика</h3><span class="link">подробнее…</span>
+            </div>
+            <span class="quest-days">2 дня</span>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-art riders" aria-hidden="true"></div>
+          <div class="quest-body">
+            <div>
+              <h3>Пропажа каравана у Мертвого Леса</h3><span class="link">подробнее…</span>
+            </div>
+            <span class="quest-days">3 дня</span>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-art tower" aria-hidden="true"></div>
+          <div class="quest-body">
+            <div>
+              <h3>«Тихо!» — Ночевка в Забытой Башне</h3><span class="link">подробнее…</span>
+            </div>
+            <span class="quest-days">7 дней</span>
+          </div>
+        </article>
+        <article class="quest-card">
+          <div class="quest-art eyes" aria-hidden="true"></div>
+          <div class="quest-body">
+            <div>
+              <h3>Гнездо Скальных Пожирателей</h3><span class="link">подробнее…</span>
+            </div>
+            <span class="quest-days">5 дней</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= OPEN LOBBIES ================= -->
+    <section id="lobbies">
+      <h2 class="section-title"><span class="deco">═══════ </span>Присоединяйся прямо сейчас<span class="deco">
+          ═══════</span></h2>
+      <div class="lobby-panel">
+        <div class="lobby-row">
+          <div class="lobby-info">
+            <div>
+              <h3>Северный дозор<span class="quest-ref">(квест «Холодное логово»)</span></h3>
+            </div>
+            <span class="lobby-progress">2/4</span>
+          </div>
+          <button class="btn-join" type="button">Вступить</button>
+        </div>
+        <div class="lobby-row">
+          <div class="lobby-info">
+            <div>
+              <h3>Первый Полёт<span class="quest-ref">(квест «Тихо!»)</span></h3>
+            </div>
+            <span class="lobby-progress">1/4</span>
+          </div>
+          <button class="btn-join" type="button">Вступить</button>
+        </div>
+        <div class="lobby-row">
+          <div class="lobby-info">
+            <div>
+              <h3>Коготь и Пламя<span class="quest-ref">(квест «Пламя Безым. Пика»)</span></h3>
+            </div>
+            <span class="lobby-progress">3/5</span>
+          </div>
+          <button class="btn-join" type="button">Вступить</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TOP MENTORS ================= -->
+    <section id="mentors">
+      <h2 class="section-title"><span class="deco">─── ⋆⋅★⋅⋆ ── </span>Топ наставников месяца<span class="deco"> ───
+          ⋆⋅★⋅⋆ ──</span>
+      </h2>
+      <div class="mentor-grid">
+        <div class="mentor">
+          <div class="mentor-avatar a"></div>
+          <h3>Лиара Тенистая</h3>
+          <span class="role">Лучшая Разведчица</span>
+        </div>
+        <div class="mentor">
+          <div class="mentor-avatar b"></div>
+          <h3>Бьорн «Железный Кулак»</h3>
+          <span class="role">Лучший Тактик</span>
+        </div>
+        <div class="mentor">
+          <div class="mentor-avatar c"></div>
+          <h3>Мао Мао</h3>
+          <span class="role">Лучший Лекарь</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DISCUSSIONS ================= -->
+    <section id="discussions">
+      <h2 class="section-title"><span class="deco">═══════ </span>Спорь, советуй, побеждай!<span class="deco">
+          ═══════</span></h2>
+      <div class="discuss-panel">
+        <div class="discuss-row">
+          <div class="discuss-info">
+            <h3>Поиск союзника<span class="sub">(2 человека)</span></h3>
+          </div>
+          <span class="discuss-count"><span class="dot"></span>34</span>
+          <a class="btn-arrow" href="" aria-label="Перейти к разделу «Поиск союзника»">→</a>
+        </div>
+        <div class="discuss-row">
+          <div class="discuss-info">
+            <h3>Поиск команды<span class="sub">(2+ человека)</span></h3>
+          </div>
+          <span class="discuss-count"><span class="dot"></span>72</span>
+          <a class="btn-arrow" href="" aria-label="Перейти к разделу «Поиск команды»">→</a>
+        </div>
+        <div class="discuss-row">
+          <div class="discuss-info">
+            <h3>Общение</h3>
+          </div>
+          <span class="discuss-count"><span class="dot"></span>186</span>
+          <a class="btn-arrow" href="" aria-label="Перейти к разделу «Общение»">→</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REVIEWS ================= -->
+    <section id="reviews">
+      <div class="review-intro">
+        <h2>GuildScan, где слову верят</h2>
+        <p>и вот наши преимущества:</p>
+      </div>
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="name">Артём, 18 лет</div>
+          <div class="stars">★★★★★</div>
+          <p>«Боялся, что кинут, а меня — научили и привели за руку»</p>
+        </div>
+        <div class="review-card">
+          <div class="name">Сергей, 34 года</div>
+          <div class="stars">★★★★★</div>
+          <p>«Раньше искал команду неделями, теперь — за час»</p>
+        </div>
+        <div class="review-card">
+          <div class="name">Граф Вальдемар</div>
+          <div class="stars">★★★★★</div>
+          <p>«Наконец-то я вижу, кто приходит на мой квест»</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= NEWS ================= -->
+    <section id="news">
+      <h2 class="section-title"><span class="deco">✎﹏﹏﹏﹏ </span>Новости<span class="deco"> ﹏﹏﹏﹏﹏</span></h2>
+      <div class="news-grid">
+        <div class="news-card">
+          <h3>Обновление: сортировка квестов по уровню сложности</h3>
+          <span class="news-time">сегодня, 10:00</span>
+        </div>
+        <div class="news-card">
+          <h3>Планируем внедрение системы «Чёрный список»</h3>
+          <span class="news-time">вчера, 16:40</span>
+        </div>
+        <div class="news-card">
+          <h3>Технические работы: сайт будет недоступен 15.07 в 03:00–04:00</h3>
+          <span class="news-time">13.07</span>
+        </div>
+        <div class="news-card">
+          <h3>Новая функция: «Избранные квесты» и уведомления</h3>
+          <span class="news-time">11.07</span>
+        </div>
+      </div>
+      <p class="news-more">Ещё больше нового скоро…</p>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer" id="about">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Меню</h3>
+        <ul>
+          <li><a href="#quests">Приключения</a></li>
+          <li><a href="#lobbies">Лобби</a></li>
+          <li><a href="#mentors">Наставники</a></li>
+          <li><a href="#discussions">Обсуждения</a></li>
+          <li><a href="#about">О нас</a></li>
+        </ul>
+      </div>
+      <div class="footer-col footer-support">
+        <h3>Служба поддержки</h3>
+        <p>pelsin.ka@yandex.com</p>
+        <div class="footer-social">
+          <a class="social-icon" href=""><img src="images/Главная/Соцсети/Telegram.png" alt="Telegram"></a>
+          <a class="social-icon" href=""><img src="images/Главная/Соцсети/ВКонтакте.png" alt="ВКонтакте"></a>
+          <a class="social-icon" href=""><img src="images/Главная/Соцсети/TikTok.png" alt="TikTok"></a>
+          <a class="social-icon" href=""><img src="images/Главная/Соцсети/YouTube.png" alt="YouTube"></a>
+          <a class="social-icon" href=""><img src="images/Главная/Соцсети/Max.png" alt="Max"></a>
+        </div>
+        <div class="footer-social-text" style="margin-top:8px;">Следите за нами в других соц.сетях!</div>
+      </div>
+      <div class="footer-badge" aria-hidden="true">
+        <img src="images/Логотип.png" alt="Логотип GuilgScan">
+      </div>
+    </div>
+    <div class="footer-bottom">© GuildScan 2026. Все права защищены.</div>
+  </footer>
+
+</body>
+
+</html>
